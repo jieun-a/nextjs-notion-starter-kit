@@ -45,9 +45,10 @@ export const NotionPageHeader: React.FC<{
   return (
     <header className='notion-header'>
       <div className='notion-nav-header'>
+      <div>Testheader</div>
         <Breadcrumbs block={block} rootOnly={true} />
 
-        <div className='notion-nav-header-rhs breadcrumbs'>
+        <div className='notion-nav-header-rhs breadcrumbs header'>
           {navigationLinks
             ?.map((link, index) => {
               if (!link.pageId && !link.url) {
@@ -79,8 +80,7 @@ export const NotionPageHeader: React.FC<{
             .filter(Boolean)}
 
           <ToggleThemeButton />
-          
-          <div>Testheader</div>
+    
           {isSearchEnabled && <Search block={block} title={null} />}
         </div>
       </div>
