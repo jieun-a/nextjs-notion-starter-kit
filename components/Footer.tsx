@@ -35,9 +35,14 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2023 {config.author}</div>
-      <div className={styles.address}>수원사업장 : 경기 용인시 기흥구 서천로201번길 11(기흥 테라타워), 9064호 · TEL : 031-273-7650 <br/>
+      <div>
+        <div className={styles.copyright}>Copyright 2023 {config.author}</div>
+        <div className={styles.address}>수원사업장 : 경기 용인시 기흥구 서천로201번길 11(기흥 테라타워), 9064호 · TEL : 031-273-7650 <br/>
             천안사업장 : 충청남도 천안시 서북구 백석공단1로10, 5층 B501호 · TEL : 041-414-7650</div>
+      </div>
+      {/* <div className={styles.copyright}>Copyright 2023 {config.author}</div>
+      <div className={styles.address}>수원사업장 : 경기 용인시 기흥구 서천로201번길 11(기흥 테라타워), 9064호 · TEL : 031-273-7650 <br/>
+            천안사업장 : 충청남도 천안시 서북구 백석공단1로10, 5층 B501호 · TEL : 041-414-7650</div> */}
       {/* <div>수원사업장 : {config.addressSuwon}．Tel{config.suwonTel}</div> */}
 
       {/* Dark Mode */}
