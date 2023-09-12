@@ -52,6 +52,18 @@
   gap: 0.5rem;
 }
 
+/* 추가 시작*/
+.notion-header .breadcrumb .notion-page-icon-inline {
+  font-size: 18px;
+  line-height: 4;
+  margin: 10px;
+  max-width: 215px;
+  width: 144px;
+  height: 50px;
+  max-height: 50px;
+}
+/* 추가 끝 */
+
 .notion-gallery-grid {
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 6vmin;
