@@ -79,7 +79,8 @@ export const NotionPageHeader: React.FC<{
             .filter(Boolean)}
 
           <ToggleThemeButton />
-
+          
+          <div>Testheader</div>
           {isSearchEnabled && <Search block={block} title={null} />}
         </div>
       </div>
