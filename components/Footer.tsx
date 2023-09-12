@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>Copyright 2023 {config.author}</div>
-      <div>수원사업장 : {config.addressSuwon}．Tel : {config.suwonTel}</div>
+      <div className={styles.copyright}>수원사업장 : {config.addressSuwon}．Tel : {config.suwonTel}</div>
 
       {/* Dark Mode */}
       <div className={styles.settings}>

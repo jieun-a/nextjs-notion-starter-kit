@@ -13,10 +13,6 @@ export default siteConfig({
   name: 'Next.js Notion Starter Kit',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: 'Norisystem Corp.',
-  addressSuwon: '경기 용인시 기흥구 서천로201번길 11(기흥 테라타워), 9064호',
-  suwonTel: '031-273-7650',
-  addressCheonan: '충청남도 천안시 서북구 백석공단1로10, 5층 B501호',
-  cheonanTel: '041-414-7650',
 
 
   // open graph metadata (optional)
