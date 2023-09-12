@@ -37,6 +37,7 @@ export const FooterImpl: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.copyright}>Copyright 2023 {config.author}</div>
 
+      {/* Dark Mode */}
       <div className={styles.settings}>
         {hasMounted && (
           <a
@@ -51,7 +52,7 @@ export const FooterImpl: React.FC = () => {
         )}
       </div>
 
-      <div className={styles.social}>
+      {/* <div className={styles.social}>
         {config.twitter && (
           <a
             className={styles.twitter}
@@ -134,7 +135,7 @@ export const FooterImpl: React.FC = () => {
             <FaYoutube />
           </a>
         )}
-      </div>
+      </div> */}
     </footer>
   )
 }
