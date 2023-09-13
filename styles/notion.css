@@ -370,6 +370,12 @@
   border-radius: 50%;
 }
 
+/* 추가 start */
+.notion-page-icon-hero.notion-page-icon-image {
+  display: none;
+}
+/* 추가 end */
+
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
