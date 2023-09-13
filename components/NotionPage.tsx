@@ -244,14 +244,14 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     <>
-      <PageHead
+      {/* <PageHead
         pageId={pageId}
         site={site}
         title={title}
         description={socialDescription}
         image={socialImage}
         url={canonicalPageUrl}
-      />
+      /> */}
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
       {isDarkMode && <BodyClassName className='dark-mode' />}
