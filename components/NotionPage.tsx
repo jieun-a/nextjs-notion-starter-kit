@@ -25,7 +25,7 @@ import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
-import { PageHead } from './PageHead'
+// import { PageHead } from './PageHead'
 import styles from './styles.module.css'
 
 // -----------------------------------------------------------------------------
@@ -228,19 +228,19 @@ export const NotionPage: React.FC<types.PageProps> = ({
     g.block = block
   }
 
-  const canonicalPageUrl =
-    !config.isDev && getCanonicalPageUrl(site, recordMap)(pageId)
+  // const canonicalPageUrl =
+  //   !config.isDev && getCanonicalPageUrl(site, recordMap)(pageId)
 
-  const socialImage = mapImageUrl(
-    getPageProperty<string>('Social Image', block, recordMap) ||
-      (block as PageBlock).format?.page_cover ||
-      config.defaultPageCover,
-    block
-  )
+  // const socialImage = mapImageUrl(
+  //   getPageProperty<string>('Social Image', block, recordMap) ||
+  //     (block as PageBlock).format?.page_cover ||
+  //     config.defaultPageCover,
+  //   block
+  // )
 
-  const socialDescription =
-    getPageProperty<string>('Description', block, recordMap) ||
-    config.description
+  // const socialDescription =
+  //   getPageProperty<string>('Description', block, recordMap) ||
+  //   config.description
 
   return (
     <>
