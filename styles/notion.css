@@ -184,6 +184,12 @@
   text-align: center;
 }
 
+/* 추가 start */
+.notion-title {
+  text-align: left;
+}
+/* 추가 end */
+
 .notion-collection-row {
   padding-bottom: 1em;
 }
